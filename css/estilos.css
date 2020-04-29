@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+
+body {
+    background: #06A2FB;
+    background: url(../Imagenes/ghibli-netflix.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: #06A2FB;
+    background-repeat: no-repeat;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+header {
+    background: rgba(101, 189, 240, 0.8);
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+figure {
+    background: #fff;
+    border-radius: 25px;
+    width: 61%;
+    margin: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+article {
+    background-color: rgba(101, 189, 240, 0.8);
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+article ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+header, .main {
+    width: 90%;
+    max-width: 1000pxx;
+    height: auto;
+    margin: 20px auto;
+}
+
+blockquote {
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(101, 189, 240, 0.8);
+    border-radius: 25px;
+}
+
+blockquote cite {
+    font-style: italic;
+}
+
+h3 {
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #6A0E0E;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: 15px 450px 15px 450px;
+    background-color: rgba(101, 189, 240, 0.8);
+    border-radius: 25px;
+    width: 25%;
+    height: auto;
+}
