@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 body {
@@ -64,7 +64,7 @@ article ul {
 
 header, .main {
     width: 90%;
-    max-width: 1000pxx;
+    max-width: 1000px;
     height: auto;
     margin: 20px auto;
 }
@@ -91,9 +91,55 @@ h3 {
 footer {
     text-align: center;
     padding: 10px;
-    margin: 15px 450px 15px 450px;
+    margin: 15px 450px 15px 37%;
     background-color: rgba(101, 189, 240, 0.8);
     border-radius: 25px;
     width: 25%;
     height: auto;
+}
+
+@media (max-width: 800px) {
+    header, .main {
+        max-width: 300;
+    }
+
+    header {
+        width: 80%;
+    }
+
+    .fondo-articulo {
+        width: 80%;
+    }
+
+    blockquote {
+        width: 80%;
+    }
+
+    footer {
+        margin: 15px 450px 15px 25%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    header, .main {
+        max-width: 400;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .fondo-articulo {
+        width: 100%;
+    }
+
+    blockquote {
+        width: 100%;
+    }
+
+    footer {
+        margin: 15px 450px 15px 25%;
+        width: 50%;
+    }
 }
