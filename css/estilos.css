@@ -99,6 +99,11 @@ footer {
 }
 
 @media (max-width: 800px) {
+
+    body {
+        background-size: cover;
+    }
+
     header, .main {
         max-width: 300;
     }
@@ -122,6 +127,11 @@ footer {
 }
 
 @media (max-width: 450px) {
+
+    body {
+        background-size: cover;
+    }
+
     header, .main {
         max-width: 400;
     }
